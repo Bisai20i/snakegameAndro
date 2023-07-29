@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="body">
+        <div class="score">
+            Score= <span class="btn" id="btn"></span><br>
+            High Score= <span class="btn" id="btn2"></span>
+        </div>
+        <div class="boardContainer">
+            <div class="board" id="board">
+
+            </div>
+        </div>
+        
+        <div class="playbtn">
+            <div class="controlbtn"><button class="pbtn" id="btn1" onclick="direct('ArrowUp')"><i class='bx bx-up-arrow-alt'></i></button></div>
+            <div class="controlbtn">
+                <button class="pbtn" id="btn2" onclick="direct('ArrowLeft')"><i class='bx bx-left-arrow-alt' ></i></button>
+                <button class="pbtn" id="btn3" onclick="direct('ArrowRight')"><i class='bx bx-right-arrow-alt' ></i></button>
+            </div>
+            <div class="controlbtn"><button class="pbtn" id="btn4" onclick="direct('ArrowDown')"><i class='bx bx-down-arrow-alt' ></i></button></div>
+        </div>
+    </section>
+    
+</body>
+<script src="main.js">
+
+</script>
+</html>
